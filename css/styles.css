@@ -1,0 +1,44 @@
+
+h1{
+    text-align: center;
+}
+/* div card*/
+.container_card{
+    width: 100%;
+    height:100vh;
+    text-align: block; 
+    padding: 5px 0;
+    display:flex;
+    align-items:center;  
+    justify-content: center;   
+    flex-wrap: wrap;
+    align-content: space-around; 
+}  
+.creartarjeta{
+    box-shadow:0 0 5px gray ;
+    border-radius: 15px; 
+    margin: 10px 10px;
+    padding: 5px;
+}
+
+.creartarjeta:hover{
+    box-shadow:0 0 5px rgb(72, 72, 248) ;
+}
+.creartarjeta>h3{
+    text-align: center;
+}
+.creartarjeta img{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    border-color: aliceblue;
+         
+}
+.creartarjeta p{
+    display: flex;
+    justify-content:center;
+} 
+ .creartarjeta a{
+    display: flex;
+    justify-content: center;
+}  
